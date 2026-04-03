@@ -1,35 +1,35 @@
 
 
-# <p align="center">srfmediathek Plugin for Enigma2 (E²) ![GitHub repo size](https://img.shields.io/github/repo-size/oe-alliance-plugins/srfmediathek.svg)</p>
+# <p align="center">SRFMediathek Plugin for Enigma2 (E²) ![GitHub repo size](https://img.shields.io/github/repo-size/oe-alliance-plugins/SRFMediathek.svg)</p>
 
 **Zugriff auf die SRF-Mediathek**
 
 
 ## Github status
-[![Build](https://github.com/oe-alliance-plugins/srfmediathek/actions/workflows/buildbot.yml/badge.svg)](https://github.com/oe-alliance-plugins/srfmediathek/actions/workflows/buildbot.yml)
-[![Lint Status](https://github.com/oe-alliance-plugins/srfmediathek/actions/workflows/pylint.yml/badge.svg)](https://github.com/oe-alliance-plugins/srfmediathek/actions/workflows/pylint.yml)
-[![Ruff Status](https://github.com/oe-alliance-plugins/srfmediathek/actions/workflows/ruff.yml/badge.svg)](https://github.com/oe-alliance-plugins/srfmediathek/actions/workflows/ruff.yml)
-[![Build Status](https://github.com/oe-alliance-plugins/srfmediathek/actions/workflows/compile.yml/badge.svg)](https://github.com/oe-alliance-plugins/srfmediathek/actions/workflows/compile.yml)
-[![AUTOTAG](https://github.com/oe-alliance-plugins/srfmediathek/actions/workflows/autotag.yml/badge.svg)](https://github.com/oe-alliance-plugins/srfmediathek/actions/workflows/autotag.yml)
+[![Build](https://github.com/oe-alliance-plugins/SRFMediathek/actions/workflows/buildbot.yml/badge.svg)](https://github.com/oe-alliance-plugins/SRFMediathek/actions/workflows/buildbot.yml)
+[![Lint Status](https://github.com/oe-alliance-plugins/SRFMediathek/actions/workflows/pylint.yml/badge.svg)](https://github.com/oe-alliance-plugins/SRFMediathek/actions/workflows/pylint.yml)
+[![Ruff Status](https://github.com/oe-alliance-plugins/SRFMediathek/actions/workflows/ruff.yml/badge.svg)](https://github.com/oe-alliance-plugins/SRFMediathek/actions/workflows/ruff.yml)
+[![Build Status](https://github.com/oe-alliance-plugins/SRFMediathek/actions/workflows/compile.yml/badge.svg)](https://github.com/oe-alliance-plugins/SRFMediathek/actions/workflows/compile.yml)
+[![AUTOTAG](https://github.com/oe-alliance-plugins/SRFMediathek/actions/workflows/autotag.yml/badge.svg)](https://github.com/oe-alliance-plugins/SRFMediathek/actions/workflows/autotag.yml)
 
 
-[![Plugin Version](https://img.shields.io/github/v/tag/oe-alliance-plugins/srfmediathek?label=Latest%20Version&color=darkviolet)](https://github.com/oe-alliance-plugins/srfmediathek/tags)
-[![Latest Release](https://img.shields.io/github/release-date/oe-alliance-plugins/srfmediathek?label=From&color=darkviolet)](https://github.com/oe-alliance-plugins/srfmediathek/releases/latest)
-[![Github last commit](https://img.shields.io/github/last-commit/oe-alliance-plugins/srfmediathek)](https://github.com/oe-alliance-plugins/srfmediathek)
-[![GitHub Activity](https://img.shields.io/github/commit-activity/y/oe-alliance-plugins/srfmediathek.svg?label=commits)](https://github.com/oe-alliance-plugins/srfmediathek/commits)
-[![GitHub Activity](https://img.shields.io/github/commit-activity/m/oe-alliance-plugins/srfmediathek.svg?label=commits)](https://github.com/oe-alliance-plugins/srfmediathek/commits)
+[![Plugin Version](https://img.shields.io/github/v/tag/oe-alliance-plugins/SRFMediathek?label=Latest%20Version&color=darkviolet)](https://github.com/oe-alliance-plugins/SRFMediathek/tags)
+[![Latest Release](https://img.shields.io/github/release-date/oe-alliance-plugins/SRFMediathek?label=From&color=darkviolet)](https://github.com/oe-alliance-plugins/SRFMediathek/releases/latest)
+[![Github last commit](https://img.shields.io/github/last-commit/oe-alliance-plugins/SRFMediathek)](https://github.com/oe-alliance-plugins/SRFMediathek)
+[![GitHub Activity](https://img.shields.io/github/commit-activity/y/oe-alliance-plugins/SRFMediathek.svg?label=commits)](https://github.com/oe-alliance-plugins/SRFMediathek/commits)
+[![GitHub Activity](https://img.shields.io/github/commit-activity/m/oe-alliance-plugins/SRFMediathek.svg?label=commits)](https://github.com/oe-alliance-plugins/SRFMediathek/commits)
 
 ## SonarCloud status
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_srfmediathek&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_srfmediathek)
-[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_srfmediathek&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_srfmediathek)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_srfmediathek&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_srfmediathek)
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_srfmediathek&metric=bugs)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_srfmediathek)
-[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_srfmediathek&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_srfmediathek)
-[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_srfmediathek&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_srfmediathek)
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_srfmediathek&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_srfmediathek)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_srfmediathek&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_srfmediathek)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_SRFMediathek&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_SRFMediathek)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_SRFMediathek&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_SRFMediathek)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_SRFMediathek&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_SRFMediathek)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_SRFMediathek&metric=bugs)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_SRFMediathek)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_SRFMediathek&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_SRFMediathek)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_SRFMediathek&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_SRFMediathek)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_SRFMediathek&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_SRFMediathek)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_SRFMediathek&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_SRFMediathek)
 
-[![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-light.svg)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_srfmediathek)
+[![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-light.svg)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_SRFMediathek)
 
 ---
 
@@ -45,7 +45,7 @@ This plugin is released under GPLv3. See [LICENSE](https://www.gnu.org/licenses/
 
 ### 🤝 Contributing & Contact
 
-srfmediathek is created by users for users and we welcome every contribution. There are no highly paid developers. There are only users who have seen a problem and done their best to fix it. This means srfmediathek will always need the contributions of users like you. How can you get involved?
+SRFMediathek is created by users for users and we welcome every contribution. There are no highly paid developers. There are only users who have seen a problem and done their best to fix it. This means SRFMediathek will always need the contributions of users like you. How can you get involved?
 
 For questions or feedback, feel free and please open an issue or contribute with a Pull Request!
 
