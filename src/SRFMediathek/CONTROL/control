@@ -1,2 +1,0 @@
-Description: Zugriff auf die SRF-Mediathek
-Depends: enigma2, python-twisted-web

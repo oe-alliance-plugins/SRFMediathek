@@ -1,0 +1,18 @@
+{
+  "branch": "main",
+  "depends_recipe": "",
+  "description_control": "Zugriff auf die SRF-Mediathek",
+  "description_recipe": "Zugriff auf die SRF-Mediathek",
+  "history_source_dir": "srfmediathek",
+  "internal_package_name": "enigma2-plugin-extensions-srfmediathek",
+  "module_dir_name": "SRFMediathek",
+  "output_subdir": "srfmediathek",
+  "package_name": "enigma2-plugin-extensions-srfmediathek",
+  "plugin_src_rel": "srfmediathek",
+  "python_package": "SRFMediathek",
+  "rdepends_recipe": "",
+  "replaces": "",
+  "repo_name": "srfmediathek",
+  "rrecommends": "",
+  "rreplaces": ""
+}
