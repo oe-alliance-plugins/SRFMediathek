@@ -25,7 +25,7 @@ from Screens.MessageBox import MessageBox
 from Screens.Screen import Screen
 from Screens.VirtualKeyBoard import VirtualKeyBoard
 from six import ensure_str
-from six.moves.urllib.parse import quote_plus
+from urllib.parse import quote_plus
 
 config.plugins.SRF = ConfigSubsection()
 config.plugins.SRF.savetopath = ConfigDirectory(default="/media/hdd/movie/")

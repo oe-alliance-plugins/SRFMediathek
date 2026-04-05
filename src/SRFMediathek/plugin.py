@@ -1,12 +1,12 @@
 # -*- coding: UTF-8 -*-
 from Plugins.Plugin import PluginDescriptor
-from six.moves import reload_module
+from importlib import reload
 
 
 def main(session, **kwargs):
     from . import srf
 
-    reload_module(srf)
+    reload(srf)
     session.open(srf.SRFMediathek)
 
 
