@@ -24,7 +24,6 @@ from Screens.InfoBar import MoviePlayer
 from Screens.MessageBox import MessageBox
 from Screens.Screen import Screen
 from Screens.VirtualKeyBoard import VirtualKeyBoard
-from six import ensure_str
 from urllib.parse import quote_plus
 
 config.plugins.SRF = ConfigSubsection()
@@ -43,6 +42,12 @@ addFont(FONT, "SRegular", 100, False)
 API_URL = "https://il.srgssr.ch/integrationlayer"
 ColorList = [("glass,#40000000,#5a000000,#37cccccc", "Black Glass"), ("glass,#5a082567,#5a000000,#37cccccc", "SapphireBlue Glass"), ("glass,#5a080828,#5a000000,#37cccccc", "MagentaBlue Glass"), ("glass,#e615d7b6,#5a000000,#37cccccc", "PaleGreen Glass"), ("glass,#5aa0785a,#5a000000,#37cccccc", "Chamoisee Glass"), ("transparent,#050a1232,#1502050e,#05192d7c", "DarkBlue Transparent"), ("transparent,#05000000,#15000000,#606060", "BlackGray Transparent"), ("transparent,#05000000,#15000000,#ffff00", "BlackYellow Transparent"), ("transparent,#1a104485,#3D104485,#1aC0C0C0", "BrightBlue Transparent"), ("transparent,#1a746962,#1502050e,#1a746962", "BrownBlue Transparent"), ("MiniTV,#104485,#0c366a,#C0C0C0", "BrightBlue MiniTV"), ("MiniTV,#0a1232,#02050e,#192d7c", "DarkBlue MiniTV"), ("MiniTV,#000000,#080808,#606060", "BlackGray MiniTV"), ("MiniTV,#000000,#080808,#ffff00", "BlackYellow MiniTV"), ("MiniTV,#746962,#02050e,#746962", "BrownBlue MiniTV")]
 config.plugins.SRF.SkinColor = ConfigSelection(default="glass,#40000000,#5a000000,#37cccccc", choices=ColorList)
+
+
+def ensure_str(s):
+	if isinstance(s, bytes):
+		return s.decode("utf-8")
+	return s
 
 
 def callInThread(func, *args, **kwargs):
